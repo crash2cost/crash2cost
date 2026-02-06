@@ -1,0 +1,60 @@
+# Log files
+*.log
+*.log.*
+
+# Log directories
+logs/
+**/logs/
+
+# Spring Boot logs
+spring.log
+application.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Build outputs
+target/
+build/
+dist/
+out/
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Database
+mongo/
+docker/mongo-data/
+backend/docker
+backend/mongo-data/
+
+# ML model weights (large binary files)
+*.pt
+*.pkl
+*.h5
+*.onnx
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Auto-generated
+HELP.md
