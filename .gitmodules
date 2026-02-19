@@ -1,0 +1,20 @@
+[submodule "backend/api-gateway"]
+	path = backend/api-gateway
+	url = https://github.com/crash2cost/api-gateway.git
+	branch = main
+[submodule "backend/auth-service"]
+	path = backend/auth-service
+	url = https://github.com/crash2cost/auth-service.git
+	branch = projectskeleton1
+[submodule "backend/report-service"]
+	path = backend/report-service
+	url = https://github.com/crash2cost/report-service.git
+	branch = feat/init/report-service
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/crash2cost/frontend.git
+	branch = AddingML
+[submodule "ml-service"]
+	path = ml-service
+	url = https://github.com/crash2cost/damage-evaluation.git
+	branch = develop
