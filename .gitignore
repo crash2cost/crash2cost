@@ -33,10 +33,7 @@ __pycache__/
 *.pyo
 
 # Database
-mongo/
-docker/mongo-data/
-backend/docker
-backend/mongo-data/
+**/mongo-data/
 
 # ML model weights (large binary files)
 *.pt
@@ -58,3 +55,4 @@ backend/mongo-data/
 
 # Auto-generated
 HELP.md
+
